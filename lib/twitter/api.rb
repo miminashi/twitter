@@ -1895,7 +1895,8 @@ module Twitter
     # @example Update the authenticating user's status
     #   Twitter.update("I'm tweeting with @gem!")
     def update(status, options={})
-      object_from_response(Twitter::Tweet, :post, "/1.1/statuses/update.json", options.merge(:status => status))
+      #object_from_response(Twitter::Tweet, :post, "/1.1/statuses/update.json", options.merge(:status => status))
+      object_from_response(Twitter::Tweet, :post, "/statuses/update.json", options.merge(:status => status))
     end
 
     # Updates the authenticating user's status with media

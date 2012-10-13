@@ -7,7 +7,7 @@
 [gemnasium]: https://gemnasium.com/sferik/twitter
 [codeclimate]: https://codeclimate.com/github/sferik/twitter
 
-A Ruby interface to the Twitter API.
+A Ruby interface to the Twitter API Identi.ca compatible mod.
 
 ## Installation
 ```sh
